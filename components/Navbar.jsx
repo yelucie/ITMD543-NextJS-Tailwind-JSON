@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className="w-full h-20 z-[100]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <span className="font-semibold font-kodchasan text-2xl">Lucie Ye's ITMD543 Lab</span>
+          <span className="font-semibold font-kodchasan text-2xl">Lucie Ye&apos;s ITMD543 Lab</span>
         </Link>
         <div>
           <ul className="hidden md:flex">
@@ -46,7 +46,7 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/">
-                <span className="font-semibold font-kodchasan text-2xl">Lucie Ye's ITMD543 Lab</span>
+                <span className="font-semibold font-kodchasan text-2xl">Lucie Ye&apos;s ITMD543 Lab</span>
               </Link>
               <div
                 onClick={handleNav}
