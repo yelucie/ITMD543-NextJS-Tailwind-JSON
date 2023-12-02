@@ -1,6 +1,6 @@
 const Users = ({ users }) => {
   return (
-    <div className="2xl:px-16">
+    <div className="2xl:mx-16 xl:mx-16 lg:mx-16 md:mx-16 mx-5">
       <h2 className="text-2xl py-4">Users</h2>
       <ul className="list-none grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         {users.map((user) => (

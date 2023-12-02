@@ -1,6 +1,6 @@
 const Posts = ({ posts, users }) => {
   return (
-    <div className="2xl:px-16">
+    <div className="2xl:mx-16 xl:mx-16 lg:mx-16 md:mx-16 mx-5">
       <h2 className="text-2xl font-bold py-4">Posts</h2>
       <ul className="list-none">
         {posts.map((post) => {
